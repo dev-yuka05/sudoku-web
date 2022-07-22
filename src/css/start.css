@@ -1,0 +1,14 @@
+.start{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 50px 7%;
+}
+
+a{
+    color: #4a90ff;
+    text-decoration: none;
+}

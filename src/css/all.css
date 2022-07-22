@@ -1,0 +1,53 @@
+.list {
+    margin-bottom: 120px;
+}
+
+.list h1{
+    color: #555;
+    margin: 0;
+    padding: 15px 5%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+
+.list a{
+    display: block;
+    color: #777;
+    text-decoration: none;
+    padding: 15px 5%;
+    font-size: 18px;
+    font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.list a:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.list a::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    color: #888;
+    float: right;
+}
+
+.list a.new::after{
+    font-weight: 500;
+    content: "new";
+    color: #fff;
+    float: right;
+    font-size: 13px;
+    background-color: rgb(250, 124, 124);
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+
+.list a i{
+    margin-right: 10px;
+}
+
+.box{
+    border-top: #555 solid 1px;
+}

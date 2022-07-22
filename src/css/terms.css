@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    box-sizing : border-box;
+    user-select: none;
+}
+
+body{
+    margin: 0;
+    user-select: none;
+}
+
+.h{
+    position: fixed;
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 15px 5%;
+    font-size: 20px;
+    border-bottom: solid 1px #e0e0e0;
+    background-color: rgba(253, 253, 253, 0.96);
+    width: 100%;
+}
+
+.h p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cont{
+    display: block;
+    padding: 70px 7%;
+}
+
+.title{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+a{
+    color: #4a90ff;
+    text-decoration: none;
+}
+
+.list{
+    display: block;
+    padding: 100px 0;
+}
+
+
+.list a{
+    display: block;
+    color: #777;
+    text-decoration: none;
+    padding: 15px 5%;
+    font-size: 18px;
+    font-weight: 500;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.list a:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.list a::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    color: #888;
+    float: right;
+}
+
+.list a.new::after{
+    font-weight: 500;
+    content: "new";
+    color: #fff;
+    float: right;
+    font-size: 13px;
+    background-color: rgb(250, 124, 124);
+    padding: 3px 10px;
+    border-radius: 50px;
+}
